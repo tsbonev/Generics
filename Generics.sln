@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{290D9E06-A05D-48C7-8764-9F9F8FA81670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConsumer", "AppConsumer\AppConsumer.csproj", "{4C12C659-D282-4ABB-BF68-1ACFB16F2C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290D9E06-A05D-48C7-8764-9F9F8FA81670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290D9E06-A05D-48C7-8764-9F9F8FA81670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290D9E06-A05D-48C7-8764-9F9F8FA81670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290D9E06-A05D-48C7-8764-9F9F8FA81670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C12C659-D282-4ABB-BF68-1ACFB16F2C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C12C659-D282-4ABB-BF68-1ACFB16F2C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C12C659-D282-4ABB-BF68-1ACFB16F2C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C12C659-D282-4ABB-BF68-1ACFB16F2C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A604069B-0136-41ED-87FA-01B0941CED1F}
+	EndGlobalSection
+EndGlobal
