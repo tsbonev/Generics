@@ -5,3 +5,9 @@ c:\users\s703\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.csprojR
 c:\users\s703\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.CoreCompileInputs.cache
 c:\users\s703\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.exe
 c:\users\s703\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
+C:\Users\s703\Documents\Visual Studio 2015\Projects\Task Manager\Generics\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
+C:\Users\s703\Documents\Visual Studio 2015\Projects\Task Manager\Generics\ConsoleApp6\obj\Debug\ConsoleApp6.exe
+C:\Users\s703\Documents\Visual Studio 2015\Projects\Task Manager\Generics\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
+C:\Users\s703\Documents\Visual Studio 2015\Projects\Task Manager\Generics\ConsoleApp6\bin\Debug\ConsoleApp6.exe
+C:\Users\s703\Documents\Visual Studio 2015\Projects\Task Manager\Generics\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
+C:\Users\s703\Documents\Visual Studio 2015\Projects\Task Manager\Generics\ConsoleApp6\obj\Debug\ConsoleApp6.csprojResolveAssemblyReference.cache

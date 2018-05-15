@@ -11,45 +11,54 @@ namespace ConsoleApp6
         public int ID { get; private set; }
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
+		public Dictionary<Task, int> hoursWorked { get; private set; }
 
-        private List<Project> workerProjects;
-        private List<Task> currentTasks;
 
-        public Worker(string fname, string lname, int id)
+		public Worker(string fname, string lname, int id)
         {
             ID = id;
             FirstName = fname;
             LastName = lname;
-
-            this.workerProjects = new List<Project>();
-            this.currentTasks = new List<Task>();
         }
 
-        public void addProject(Project project)
-        {
-            try
-            {
-                if (project == null) throw new NullReferenceException();
-                this.workerProjects.Add(project);
-            }
-            catch(NullReferenceException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-        }
+		public void addHoursWorked(Task task, int hours)
+		{
+			try
+			{
+				if (task == null)
+				{
+					throw new NullReferenceException();
+				}
 
-        public void addTask(Task task)
-        {
-            try
-            {
-                if (task == null) throw new NullReferenceException();
-                this.currentTasks.Add(task);
-            }
-            catch (NullReferenceException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-        }
+				addTask(task, hours);
+			}
+			catch(NullReferenceException e)
+			{
+				Console.WriteLine(e.StackTrace);
+			}
+		}
+
+		public void addTask(Task task, int i = 0)
+		{
+			try
+			{
+				if (task == null)
+				{
+					throw new NullReferenceException();
+				}
+
+				if (hoursWorked == null)
+				{
+					hoursWorked = new Dictionary<Task, int>();
+				}
+
+				hoursWorked.Add(task, i);
+			}
+			catch(NullReferenceException e)
+			{
+				Console.WriteLine(e.StackTrace);
+			}
+		}
 
     }
 }
